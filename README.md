@@ -46,7 +46,8 @@ python3 RHEEDsim.py
 ```
 
 The desktop GUI requires Tk (tkinter), supplied by many Python distributions.
-On macOS, double-click `run.command` or run `./run.command`; the launcher
+On macOS, run `sh run.command`. To enable double-click launching after download,
+run `chmod +x run.command` first. The launcher
 prefers `.venv/bin/python` if an environment has been created there. To create one:
 
 ```sh
