@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  Please cite BOTH the original Wang and Smith paper and the original MATLAB
+  code archive listed in references. This repository is an independent Python
+  translation; also record its URL and commit hash for reproducibility.
+title: 'RHEEDsim Python: a translation of the original MATLAB code'
+type: software
+authors:
+  - family-names: Regmi
+    given-names: Sijan
+repository-code: 'https://github.com/regmi-sijan/RHEEDsim-Python'
+abstract: >-
+  Independent Python port of RHEEDsim by Kangkang Wang and Arthur R. Smith.
+  The scientific method and original MATLAB implementation are credited to
+  Wang and Smith. Python translation prepared with assistance from OpenAI Codex.
+references:
+  - type: article
+    title: 'Efficient kinematical simulation of reflection high-energy electron diffraction streak patterns for crystal surfaces'
+    authors:
+      - family-names: Wang
+        given-names: Kangkang
+      - family-names: Smith
+        given-names: Arthur R.
+    journal: Computer Physics Communications
+    volume: '182'
+    issue: '10'
+    start: '2208'
+    end: '2212'
+    year: 2011
+    doi: 10.1016/j.cpc.2011.04.023
+  - type: software
+    title: 'Efficient kinematical simulation of reflection high-energy electron diffraction streak patterns for crystal surfaces'
+    authors:
+      - family-names: Wang
+        given-names: Kangkang
+      - family-names: Smith
+        given-names: Arthur R.
+    version: '1'
+    year: 2011
+    doi: 10.17632/dk7w4jwg7d.1
+    url: 'https://data.mendeley.com/datasets/dk7w4jwg7d/1'
+    notes: 'Original MATLAB RHEEDsim; CPC catalogue AEJC_v1_0; Mendeley Data.'
