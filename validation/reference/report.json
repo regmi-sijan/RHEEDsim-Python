@@ -1,0 +1,504 @@
+{
+  "generated_utc": "2026-09-26T20:15:25.825741+00:00",
+  "runtime": "GNU Octave (aarch64-apple-darwin25.4.0) version 11.3.0",
+  "source_doi": "10.17632/dk7w4jwg7d.1",
+  "source_sha256": {
+    "RHEEDsim.m": "3019e90d8ad50af76467bb9f49270bd1469d8a68d6ff3c47ae9c2cbcf0d828d9",
+    "local_IM.m": "9f3d1693ff5419da4664722ae3736c02616b45a635f780609a638158d0a2247f",
+    "local_IM2D.m": "25710882f96f43dbccea79b8355a15acf2c53911e4f82ff7f3555ad658102fd4",
+    "local_LEEDgen.m": "89dc7ce00108842f8b1c9265d31045de5528afaab55615fe41f4858e132a95b7",
+    "local_distfinder.m": "392326672842dd5d0fc47792d351776f072a5c256fbac0b0cfc8bf888290bd2d",
+    "local_gbroaden.m": "29e5e520a22a94a42db10602afeaa166ac3a6c88317049175ab05bd373452033",
+    "local_recip.m": "420797a44f6d2fb9f24aeefc0d33cfbf5faac6cdb6e533d3d8717f8c1646ebd3",
+    "GaN.txt": "5da2e201dea6b038ba680a87f6774d302f5a701cd25d958a51fba214a147629a",
+    "coordinates1.txt": "db325b2cafa27ff4ae1287a3114491eb4b342b26eb3af7c2762a8234043d514a",
+    "coordinates2.txt": "9078ed89f23ca1770aa38a4683e1ed369ed342fdf6b27e4062f8430722cf4546",
+    "sqrt3BL.txt": "846fc12ccb3ef699701686eedce34b2ce4d7ad9a70202e0d92bd1adbf95cb182",
+    "sqrt3HD.txt": "bcacbfc4bcd56ba27a82ab69f90d3359619a8e2aa8bc0fbf2337bfaaa40c1a3a"
+  },
+  "harness_sha256": {
+    "export_original.m": "b137250cbcbad0a90336ac0e49202139c24f40c543363c6bd5bec0369ced98b7",
+    "octave_compat/close.m": "4d73a0465e87b2abbddb08359d1fc8f821db5b56a096f5b391e1255432810611",
+    "octave_compat/normpdf.m": "e7683cf9e321cc21f4253efb8b3f946fdd67dcd008e9f42f61aebda2e29caf53",
+    "octave_compat/waitbar.m": "18b271186d2e3a188cee6d6363d586195c790964c7a0793215d4bc26dfba54a1"
+  },
+  "rtol": 1e-10,
+  "atol": 1e-10,
+  "arrays": [
+    {
+      "array": "GaN_angle0_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle0_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle0_peaks",
+      "shape": [
+        5,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle0_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "array": "GaN_angle0_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 7.216449660063518e-16
+    },
+    {
+      "array": "GaN_angle90_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle90_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle90_peaks",
+      "shape": [
+        9,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_angle90_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 4.107825191113079e-15
+    },
+    {
+      "array": "GaN_angle90_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 4.107825191113079e-15
+    },
+    {
+      "array": "GaN_leed_peaks",
+      "shape": [
+        8,
+        5
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "GaN_leed",
+      "shape": [
+        32,
+        32
+      ],
+      "max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "array": "coordinates1_angle0_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "coordinates1_angle0_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "coordinates1_angle0_peaks",
+      "shape": [
+        33,
+        2
+      ],
+      "max_abs_error": 8.659739592076221e-15
+    },
+    {
+      "array": "coordinates1_angle0_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 2.8421709430404007e-13
+    },
+    {
+      "array": "coordinates1_angle0_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 2.948752353404416e-13
+    },
+    {
+      "array": "coordinates1_angle90_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "coordinates1_angle90_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "coordinates1_angle90_peaks",
+      "shape": [
+        15,
+        2
+      ],
+      "max_abs_error": 1.7763568394002505e-15
+    },
+    {
+      "array": "coordinates1_angle90_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 3.552713678800501e-14
+    },
+    {
+      "array": "coordinates1_angle90_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 4.618527782440651e-14
+    },
+    {
+      "array": "coordinates1_leed_peaks",
+      "shape": [
+        50,
+        5
+      ],
+      "max_abs_error": 7.105427357601002e-15
+    },
+    {
+      "array": "coordinates1_leed",
+      "shape": [
+        32,
+        32
+      ],
+      "max_abs_error": 1.9539925233402755e-14
+    },
+    {
+      "array": "coordinates2_angle0_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "coordinates2_angle0_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "coordinates2_angle0_peaks",
+      "shape": [
+        39,
+        2
+      ],
+      "max_abs_error": 2.0179413695586845e-12
+    },
+    {
+      "array": "coordinates2_angle0_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 2.6557245291769505e-10
+    },
+    {
+      "array": "coordinates2_angle0_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 3.055902197957039e-10
+    },
+    {
+      "array": "coordinates2_angle90_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "coordinates2_angle90_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "coordinates2_angle90_peaks",
+      "shape": [
+        77,
+        2
+      ],
+      "max_abs_error": 3.304023721284466e-12
+    },
+    {
+      "array": "coordinates2_angle90_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 1.0477378964424133e-09
+    },
+    {
+      "array": "coordinates2_angle90_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 1.1350493878126144e-09
+    },
+    {
+      "array": "coordinates2_leed_peaks",
+      "shape": [
+        328,
+        5
+      ],
+      "max_abs_error": 4.689582056016661e-13
+    },
+    {
+      "array": "coordinates2_leed",
+      "shape": [
+        32,
+        32
+      ],
+      "max_abs_error": 7.275957614183426e-12
+    },
+    {
+      "array": "sqrt3BL_angle0_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "sqrt3BL_angle0_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "sqrt3BL_angle0_peaks",
+      "shape": [
+        13,
+        2
+      ],
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "array": "sqrt3BL_angle0_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 1.3322676295501878e-14
+    },
+    {
+      "array": "sqrt3BL_angle0_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 1.4654943925052066e-14
+    },
+    {
+      "array": "sqrt3BL_angle90_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "sqrt3BL_angle90_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "sqrt3BL_angle90_peaks",
+      "shape": [
+        9,
+        2
+      ],
+      "max_abs_error": 1.887379141862766e-15
+    },
+    {
+      "array": "sqrt3BL_angle90_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 8.659739592076221e-15
+    },
+    {
+      "array": "sqrt3BL_angle90_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 9.103828801926284e-15
+    },
+    {
+      "array": "sqrt3BL_leed_peaks",
+      "shape": [
+        20,
+        5
+      ],
+      "max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "array": "sqrt3BL_leed",
+      "shape": [
+        32,
+        32
+      ],
+      "max_abs_error": 2.220446049250313e-15
+    },
+    {
+      "array": "sqrt3HD_angle0_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "sqrt3HD_angle0_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "sqrt3HD_angle0_peaks",
+      "shape": [
+        13,
+        2
+      ],
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "array": "sqrt3HD_angle0_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 1.9761969838327786e-14
+    },
+    {
+      "array": "sqrt3HD_angle0_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 2.1094237467877974e-14
+    },
+    {
+      "array": "sqrt3HD_angle90_reciprocal",
+      "shape": [
+        2,
+        2
+      ],
+      "max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "array": "sqrt3HD_angle90_vector",
+      "shape": [
+        3
+      ],
+      "max_abs_error": 0.0
+    },
+    {
+      "array": "sqrt3HD_angle90_peaks",
+      "shape": [
+        9,
+        2
+      ],
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "array": "sqrt3HD_angle90_profile",
+      "shape": [
+        500,
+        2
+      ],
+      "max_abs_error": 9.103828801926284e-15
+    },
+    {
+      "array": "sqrt3HD_angle90_streaks",
+      "shape": [
+        400,
+        500
+      ],
+      "max_abs_error": 9.103828801926284e-15
+    },
+    {
+      "array": "sqrt3HD_leed_peaks",
+      "shape": [
+        20,
+        5
+      ],
+      "max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "array": "sqrt3HD_leed",
+      "shape": [
+        32,
+        32
+      ],
+      "max_abs_error": 3.9968028886505635e-15
+    }
+  ],
+  "notes": "Original MATLAB numerical routines executed unmodified in GNU Octave. UI waitbar/close are replaced by no-ops; normpdf uses the standard analytic formula. This is not a MATLAB-runtime validation.",
+  "python_version": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "numpy_version": "2.5.3",
+  "fixture_sha256": "d80b07e05dd718fcd856b44512dd85df16567f16349aa4c0dd488e589186c93c",
+  "python_core_sha256": "610747ba1e5c53446d375c81e2ea87f2bd2d21742ff59ff448815213e4f2da6d"
+}
