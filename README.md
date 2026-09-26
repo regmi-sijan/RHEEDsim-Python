@@ -163,5 +163,15 @@ Tests compare all five examples against separate scalar implementations of the
 MATLAB equations, including sampled vertical rows; compare the full small LEED
 map against a direct triple loop; and cover reciprocal duality, historical
 mirroring, single-atom behavior, invalid models, and failed beam searches.
-MATLAB/Octave is not installed here, so these are source-based numerical
-compatibility checks, not a claimed execution comparison with MATLAB itself.
+The original unmodified MATLAB numerical routines have also been executed in
+GNU Octave 11.3.0. All **60 output arrays** across five models and two beam angles
+match the Python calculations within `rtol=1e-10, atol=1e-10`, including complete
+streak maps and small LEED maps. The maximum observed absolute difference is
+`1.14e-09`. This is an Octave execution comparison, not a MathWorks MATLAB run.
+
+The compressed reference arrays and source-file hashes are saved under
+`validation/reference`. Run `python3 validation/validate_original.py --check-only`
+to check them without Octave. See [validation/README.md](validation/README.md)
+for reproduction instructions, progress-window/normal-density compatibility shims and scope.
+The calculation code remains unchanged. See [ROADMAP.md](ROADMAP.md) for the
+sequential improvement plan.
